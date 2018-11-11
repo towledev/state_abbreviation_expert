@@ -17,11 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "state_abbreviation_expert"
   gem.homepage = "http://github.com/towledev/state_abbreviation_expert"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Handles fields involving either the names or abbreviations of the 50 states and the District of Columbia}
+  gem.description = gem.summary
   gem.email = "towledev@gmail.com"
   gem.authors = ["M. Towle"]
-  # dependencies defined in Gemfile
+  gem.files.include '{lib,data}/**/*'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
