@@ -1,4 +1,4 @@
 
 def favorite_states
-	%w{Ohio Virginia}
+	%w{Ohio Virginia Maryland}
 end
